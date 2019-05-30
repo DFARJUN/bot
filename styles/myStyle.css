@@ -115,7 +115,7 @@ body
 }
 
 #convers {
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: calc(100vw - 10px);
     z-index:0;
