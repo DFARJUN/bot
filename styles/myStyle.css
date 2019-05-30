@@ -94,6 +94,7 @@ body
     position:fixed;
     bottom:0;
     right:0;
+    z-index:100;
 }
 
 #down{
@@ -116,4 +117,5 @@ body
     position: fixed;
     bottom: 0;
     width: calc(100vw - 10px);
+    z-index:0;
 }
