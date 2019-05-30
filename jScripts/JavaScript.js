@@ -14,7 +14,7 @@
       
 }
 
-var y = "<div class=bubble alt><div class=txt><p class=name alt>סבתא</p><p class=message>"
+var y = "<div class=bubble alt><div class=txt><p class=alt class=name >סבתא</p><p class=message>"
 var u = "</p></div><div class=bubble-arrow alt></div>"
 var n = "<div class=speech-wrapper><div class=bubble><div class=txt><p class=name>אני</p><p class=message>";
 var l = "</p></div><div class=bubble-arrow></div></div></div>";

@@ -7,7 +7,7 @@ body
 
 
 .speech-wrapper {
-    padding: 30px 40px;
+    padding: 20px 40px;
     direction: ltr;
 }
 
@@ -22,10 +22,9 @@ body
     box-shadow: 2px 8px 5px #000;
     position: relative;
     margin: 0 0 25px;
-}
     &.alt {
     margin: 0 0 0 60px;
-}
+}}
 
 .txt {
     padding: 8px 55px 8px 14px;
@@ -33,28 +32,30 @@ body
 }
 .name {
     font-weight: 600;
-    font-size: 12px;
+    font-size: 16px;
     margin: 0 0 4px;
     color: #3498db;
-&.alt {
+&.alt
+{
     color: #2ecc71;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0 0 4px;
 }}
 
-
+.alt {
+    color: forestgreen;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0 0 4px;
+}
 .message {
-    font-size: 12px;
+    font-size: 14px;
     margin: 0;
     color: #2b2b2b;
 }
 
-.timestamp {
-    font-size: 11px;
-    position: absolute;
-    bottom: 8px;
-    right: 10px;
-    text-transform: uppercase;
-    color: #999
-}
+
 
 
 .bubble-arrow {
@@ -63,7 +64,7 @@ body
     bottom: 42px;
     left: -16px;
     height: 0;
-    &.alt{
+    .alt{
     right: -2px;
     bottom: 40px;
     left: auto;
@@ -90,6 +91,9 @@ body
     width: calc(100vw - 10px);
     height: calc(100vh - 10px);
     border: 5px solid black;
+    position:fixed;
+    bottom:0;
+    right:0;
 }
 
 #down{
@@ -99,9 +103,17 @@ body
 }
 
 #Text1{
-    width:calc(100vw - 10px - 20vw)
+    width:calc(100vw - 10px - 20vw);
+    height:30px;
 }
 
 #Button1{
     width:15vw;
+    height:35px
+}
+
+#convers {
+    position: fixed;
+    bottom: 0;
+    width: calc(100vw - 10px);
 }
