@@ -7,7 +7,6 @@ body
 
 
 .speech-wrapper {
-    padding: 20px 40px;
     direction: ltr;
 }
 
@@ -21,7 +20,7 @@ body
     border-radius: 4px;
     box-shadow: 2px 8px 5px #000;
     position: relative;
-    margin: 0 0 25px;
+    margin: 0 40px 40px;
     &.alt {
     margin: 0 0 0 60px;
 }}
