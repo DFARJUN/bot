@@ -1,12 +1,4 @@
-﻿document.addEventListener("keydown", functionss(event))
-function functionss(event) {
- if (13 == event.keyCode) {
-        myfunc()
-    }
-}
-   
-
-function myfunc() {
+﻿function myfunc() {
     var x = String(document.getElementById("Text1").value);
     document.getElementById("convers").innerHTML += n + x +l;
 
