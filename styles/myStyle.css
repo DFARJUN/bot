@@ -105,13 +105,13 @@ body
 }
 
 #Text1{
-    width:calc(100vw - 10px - 20vw);
+    width:calc(100vw - 10px);
     height:30px;
 }
 
-#Button1{
-    width:15vw;
-    height:35px
+#Button1 {
+    width: calc(100vw - 10px); 
+    height:30px
 }
 
 #convers {
