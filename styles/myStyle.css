@@ -111,12 +111,13 @@ body
 
 #Button1 {
     width: calc(100vw - 10px); 
-    height:30px
+    height:30px;
+    display:inline-block;
 }
 
 #convers {
     position: absolute;
-    bottom: 0;
+    bottom: 50px;
     width: calc(100vw - 10px);
     z-index:0;
 }
