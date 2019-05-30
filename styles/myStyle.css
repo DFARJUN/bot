@@ -101,6 +101,7 @@ body
     position:fixed;
     bottom:5px;
     margin:auto auto;
+    z-index:200
 }
 
 #Text1{
@@ -115,7 +116,7 @@ body
 
 #convers {
     position: fixed;
-    top: 0;
+    bottom: 0;
     width: calc(100vw - 10px);
     z-index:0;
 }
