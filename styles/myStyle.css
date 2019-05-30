@@ -99,6 +99,7 @@ body
 #down{
     position:fixed;
     bottom:5px;
+    right:5px;
     margin:auto auto;
     z-index:200
 }
