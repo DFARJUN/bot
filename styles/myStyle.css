@@ -1,7 +1,7 @@
-body 
-{
-    direction:rtl;
-    margin:0 0;
+body {
+    direction: rtl;
+    margin: 0 0;
+    background-color: aqua;
 }
 
 
@@ -68,6 +68,12 @@ body
     bottom: 40px;
     left: auto;
          }
+}
+
+.bubble-arrow.alt {
+    right: -2px;
+    bottom: 40px;
+    left: auto;
 }
 
 
